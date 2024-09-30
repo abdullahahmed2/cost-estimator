@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "postbuild": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
