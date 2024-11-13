@@ -1,6 +1,7 @@
 // src/components/ProjectForm.js
 import React, { useState } from 'react';
 import ResultsTable from './ResultsTable';
+import './ProjectForm.css';
 
 function ProjectForm() {
     const [projectName, setProjectName] = useState('');
